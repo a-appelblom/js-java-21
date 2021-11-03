@@ -37,6 +37,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"encoding": "^0.1.13",
 		"svelte-icons": "^2.1.0"
 	}
 }
