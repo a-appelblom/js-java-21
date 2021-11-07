@@ -2,7 +2,6 @@
 	import PrismicDom from 'prismic-dom';
 	import type { InfoRow } from '../../lib/types';
 	export let rows: InfoRow;
-	console.log(rows.items);
 </script>
 
 {#each rows.items as row}

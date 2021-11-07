@@ -5,6 +5,11 @@ const config = {
 	theme: {
 		extend: {}
 	},
+	variants: {
+		extend: {
+			margin: ['odd', 'even']
+		}
+	},
 
 	plugins: []
 };

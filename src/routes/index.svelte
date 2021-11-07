@@ -4,7 +4,6 @@
 
 	export async function load() {
 		const data = await client.getByUID('homepage', 'homepage', {});
-		console.log(data);
 		return { props: { data } };
 	}
 </script>

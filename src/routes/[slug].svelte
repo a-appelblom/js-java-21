@@ -3,9 +3,7 @@
 	import prismic from '@prismicio/client';
 
 	export async function load({ page, stuff }) {
-		console.log(page);
 		const data = await client.getByUID('page', page.params.slug, {});
-		console.log(data);
 		return {
 			props: {
 				data

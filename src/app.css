@@ -14,3 +14,7 @@ h6,
 a {
 	font-family: 'Anton', sans-serif;
 }
+
+details > summary {
+	list-style: none;
+}

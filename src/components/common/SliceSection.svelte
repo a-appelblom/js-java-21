@@ -2,7 +2,6 @@
 	import InfoRowSection from '../sections/InfoRow.svelte';
 	import Lessons from '../sections/Lessons.svelte';
 	export let body: any[];
-	console.log('body', body);
 </script>
 
 {#each body as section}
